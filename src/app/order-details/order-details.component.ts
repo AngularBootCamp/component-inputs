@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { Order } from '..https://api.angularbootcamp.com-types';
+import { Order } from '../api-types';
 
 @Component({
   selector: 'order-details',
