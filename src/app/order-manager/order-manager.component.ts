@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { Order, fakeApiOrderData } from '../api-types';
+import { fakeApiOrderData, Order } from '../api-types';
 
 @Component({
   selector: 'order-manager',
