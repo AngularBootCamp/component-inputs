@@ -5,5 +5,5 @@ import { Component, Input } from '@angular/core';
   templateUrl: './order-header.component.html'
 })
 export class OrderHeaderComponent {
-  @Input('customerName') customer: string;
+  @Input('customerName') customer = '';
 }

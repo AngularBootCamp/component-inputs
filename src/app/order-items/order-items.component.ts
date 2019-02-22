@@ -7,5 +7,5 @@ import { Item } from '../api-types';
   templateUrl: './order-items.component.html'
 })
 export class OrderItemsComponent {
-  @Input() items: Item[];
+  @Input() items: Item[] = [];
 }

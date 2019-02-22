@@ -8,7 +8,7 @@ import { Order, fakeApiOrderData } from '../api-types';
 })
 export class OrderManagerComponent {
   orderList: Order[] = fakeApiOrderData;
-  selectedOrder: Order;
+  selectedOrder: Order | undefined;
 
   choose(i: number) {
     this.selectedOrder = this.orderList[i];

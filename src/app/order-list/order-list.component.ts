@@ -9,5 +9,5 @@ import { Order } from '../api-types';
 export class OrderListComponent {
   // defaults to property name = variable name.
   // can override, @Input('name')
-  @Input() orders: Order[];
+  @Input() orders: Order[] = [];
 }
