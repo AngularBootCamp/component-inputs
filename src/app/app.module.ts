@@ -20,4 +20,4 @@ import { OrderManagerComponent } from './order-manager/order-manager.component';
   imports: [BrowserModule],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

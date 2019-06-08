@@ -11,34 +11,38 @@ export interface Order {
 
 export const fakeApiOrderData = [
   {
-    'id': 123,
-    'customer': 'Oasis Digital',
-    'items': [
+    id: 123,
+    customer: 'Oasis Digital',
+    items: [
       {
-        'quantity': 3,
-        'description': 'Widgets'
-      }, {
-        'quantity': 2,
-        'description': 'Thingamabobs'
-      }, {
-        'quantity': 6,
-        'description': 'Doodads'
+        quantity: 3,
+        description: 'Widgets'
+      },
+      {
+        quantity: 2,
+        description: 'Thingamabobs'
+      },
+      {
+        quantity: 6,
+        description: 'Doodads'
       }
     ]
   },
   {
-    'id': 456,
-    'customer': 'Paul',
-    'items': [
+    id: 456,
+    customer: 'Paul',
+    items: [
       {
-        'quantity': 1,
-        'description': 'Sprockets'
-      }, {
-        'quantity': 26,
-        'description': 'Spanners'
-      }, {
-        'quantity': 9,
-        'description': 'Gizmos'
+        quantity: 1,
+        description: 'Sprockets'
+      },
+      {
+        quantity: 26,
+        description: 'Spanners'
+      },
+      {
+        quantity: 9,
+        description: 'Gizmos'
       }
     ]
   }
